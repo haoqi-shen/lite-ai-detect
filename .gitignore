@@ -1,2 +1,15 @@
-__pycache__/
-node_modules/
+# Node
+frontend/node_modules
+frontend/dist
+frontend/.npm-cache
+frontend/.env*
+
+# Python
+backend/.venv
+backend/.mypy_cache
+backend/__pycache__
+backend/.pytest_cache
+
+# Build/Artifacts
+*.log
+.DS_Store
