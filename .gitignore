@@ -1,15 +1,86 @@
-# Node
-frontend/node_modules
-frontend/dist
-frontend/.npm-cache
-frontend/.env*
-
-# Python
-backend/.venv
-backend/.mypy_cache
-backend/__pycache__
-backend/.pytest_cache
-
-# Build/Artifacts
+# =========================================================
+# React / Vite / Node Frontend
+# =========================================================
+node_modules/
+dist/
+build/
+.vite/
+.next/
+.cache/
+coverage/
 *.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Firebase credentials or config JSONs
+firebase-debug.log
+serviceAccountKey.json
+
+# =========================================================
+# Python / FastAPI / Flask Backend
+# =========================================================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+instance/
+.env
+venv/
+env/
+*.sqlite3
+*.egg-info/
+
+# =========================================================
+# Docker / AWS
+# =========================================================
+*.pid
+*.seed
+*.tar
+*.bak
+*.swp
+docker-compose.override.yml
+*.pem
+*.key
+*.crt
+
+# AWS credentials or configs
+.aws/
+.aws-sam/
+*.aws.json
+
+# =========================================================
+# System / Editor Files
+# =========================================================
 .DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# =========================================================
+# GitHub / CI / Secrets
+# =========================================================
+.github/workflows/ci.yml
+*.secret
+*.token
+*.certificate
+
+# =========================================================
+# Output / Uploads / Cache
+# =========================================================
+uploads/
+tmp/
+logs/
+media/
+staticfiles/
+
