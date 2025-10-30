@@ -1,0 +1,6 @@
+html, body, #root { height: 100%; margin: 0; font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, Noto Sans, Apple Color Emoji, Segoe UI Emoji; color: #111827; }
+a { color: inherit; text-decoration: none; }
+button { cursor: pointer; background: white; }
+* { box-sizing: border-box; }
+
+
